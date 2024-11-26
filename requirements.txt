@@ -1,0 +1,4 @@
+can
+cantools
+paho-mqtt
+PyYAML

@@ -1,2 +1,24 @@
-# can2mqtt
-This repository contains a Python script that acts as a bidirectional bridge between a CAN bus and an MQTT broker. The script reads CAN messages, decodes them using a DBC file, and publishes them to MQTT topics. It also subscribes to MQTT topics, encodes the messages using the DBC file, and sends them onto the CAN bus.
+# CAN to MQTT Bridge
+
+A bidirectional bridge between a CAN bus and an MQTT broker using Python.
+
+## Features
+
+- Receives CAN messages and publishes them to MQTT topics.
+- Receives MQTT messages and sends them to the CAN bus.
+- Uses a DBC file for decoding and encoding CAN messages.
+- Handles unknown CAN messages.
+- Configurable via a YAML file.
+
+## Requirements
+
+- Python 3.x
+- See `requirements.txt` for Python dependencies.
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/yourrepository.git
+   cd yourrepository

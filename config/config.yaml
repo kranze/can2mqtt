@@ -1,0 +1,11 @@
+can_interface:
+  bustype: 'socketcan'
+  channel: 'can0'
+  bitrate: 500000
+
+dbc_file: 'ISC_CME_v1.1.0.dbc'
+
+mqtt:
+  broker_address: 'localhost'
+  broker_port: 1883
+  client_id: 'can2mqtt'
