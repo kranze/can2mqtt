@@ -20,5 +20,5 @@ A bidirectional bridge between a CAN bus and an MQTT broker using Python.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/yourrepository.git
-   cd yourrepository
+   git clone https://github.com/kranze/can2mqtt.git
+   cd can2mqtt
